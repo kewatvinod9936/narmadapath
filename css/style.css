@@ -1,0 +1,93 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    padding-top: 60px;
+}
+
+body#profile img#profile-image{
+    -webkit-box-shadow: 7px 9px 10px 4px rgba(0,0,0,0.67);
+    -moz-box-shadow: 7px 9px 10px 4px rgba(0,0,0,0.67);
+    box-shadow: 7px 9px 10px 4px rgba(0,0,0,0.67);
+}
+
+.huge{
+    font-size: 40px;
+}
+
+.tag-boxes .panel-primary{
+    border: 1px solid #2FA4E7;
+}
+
+.tag-boxes .panel-red{
+    color: white;
+    background: #d9534f;
+}
+
+.tag-boxes .panel-red a{
+    color: #d9534f;
+}
+
+.tag-boxes .panel-red a:hover{
+    color: #b52b27;
+}
+
+
+.tag-boxes .panel-yellow{
+    color: white;
+    background: #DAA520;
+}
+
+.tag-boxes .panel-yellow a{
+    color: #DAA520;
+}
+
+.tag-boxes .panel-yellow a:hover{
+    color: #df8a13;
+}
+
+.tag-boxes .panel-purple{
+    color: white;
+    background: #800080;
+}
+
+.tag-boxes .panel-purple a{
+    color: #800080;
+}
+
+.tag-boxes .panel-purple a:hover{
+    color: #800080;
+}
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+.body-section{
+    padding-bottom: 70px;
+}
+
+
+footer{
+    background:#2FA4E7;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}
+
+footer a{
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
